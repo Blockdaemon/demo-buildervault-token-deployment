@@ -1,0 +1,19 @@
+{
+  "name": "demo-buildervault-token-deployment",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@blockdaemon/buildervault-web3-provider": "https://github.com/Blockdaemon/buildervault-web3-provider/raw/refs/heads/MPC-2011-temp-npm-tgz/blockdaemon-buildervault-web3-provider-0.0.6.tgz",
+    "@sepior/tsmsdkv2": "^70.1.0",
+    "crypto": "^1.0.1",
+    "ts-node": "^10.9.2",
+    "viem": "^2.29.2"
+  }
+}
